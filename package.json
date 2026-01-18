@@ -1,0 +1,37 @@
+{
+  "name": "create-react-pro",
+  "version": "1.0.0",
+  "description": "CLI multiplataforma para generar proyectos React con TypeScript, Tailwind CSS y mejores prácticas",
+  "keywords": [
+    "react",
+    "typescript",
+    "tailwind",
+    "vite",
+    "cli",
+    "generator",
+    "boilerplate",
+    "template"
+  ],
+  "homepage": "https://github.com/TU-USUARIO/create-react-pro#readme",
+  "bugs": {
+    "url": "https://github.com/TU-USUARIO/create-react-pro/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TU-USUARIO/create-react-pro.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "main": "cli/dist/index.js",
+  "bin": {
+    "create-react-pro": "./cli/dist/index.js"
+  },
+  "scripts": {
+    "install-cli": "cd cli && npm install && npm run build && npm install -g .",
+    "build": "cd cli && npm run build",
+    "dev": "cd cli && npm run dev"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
