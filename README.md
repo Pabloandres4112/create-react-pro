@@ -13,9 +13,9 @@
 -  **Múltiples Gestores**: Soporte para npm, pnpm y yarn (con detección automática)
 -  **Plantillas Modernas**: Landing Page, E-commerce y Dashboard preconfiguradas
 -  **Git Hooks Automáticos**: Husky + lint-staged + commitlint integrados
-- 🎯 **TypeScript**: Tipado fuerte para código más robusto
-- 💅 **Tailwind CSS**: Estilos utilitarios listos para usar
-- 🔧 **ESLint & Prettier**: Calidad de código desde el primer commit
+-  **TypeScript**: Tipado fuerte para código más robusto
+-  **Tailwind CSS**: Estilos utilitarios listos para usar
+-  **ESLint & Prettier**: Calidad de código desde el primer commit
 
 ##  Requisitos
 
@@ -152,11 +152,11 @@ npm install -g pnpm
 
 Ventajas:
 -  2-3x más rápido que npm
-- 💾 Ahorra hasta 70% de espacio en disco
-- 🔒 Más seguro con estructura estricta
+-  Ahorra hasta 70% de espacio en disco
+-  Más seguro con estructura estricta
 -  Compatible 100% con package.json
 
-## 🔧 Desarrollo del CLI
+##  Desarrollo del CLI
 
 ### Estructura del Proyecto
 
@@ -194,17 +194,17 @@ cd cli
 npm run dev create test-project
 ```
 
-## 🆚 Comparación: Scripts .bat vs CLI Node.js
+##  Comparación: Scripts .bat vs CLI Node.js
 
 | Característica | Scripts .bat (Legacy) | CLI Node.js |
 |----------------|----------------------|-------------|
 | **Plataforma** |  Solo Windows |  Windows, macOS, Linux |
-| **Interfaz** | ⚠️ Básica (texto plano) |  Moderna (colores, spinners) |
-| **Validación** | ⚠️ Limitada |  Robusta y en tiempo real |
+| **Interfaz** |  Básica (texto plano) |  Moderna (colores, spinners) |
+| **Validación** |  Limitada |  Robusta y en tiempo real |
 | **Gestores** |  Solo npm |  npm, pnpm, yarn |
-| **Bundler** | ⚠️ Solo CRA |  Vite + CRA |
+| **Bundler** |  Solo CRA |  Vite + CRA |
 | **Git Hooks** |  No |  Husky + lint-staged |
-| **Código** | ⚠️ Difícil mantener |  TypeScript modular |
+| **Código** |  Difícil mantener |  TypeScript modular |
 | **Testing** |  No |  Fácil de testear |
 
 ##  Tecnologías Incluidas en Proyectos Generados
@@ -236,7 +236,7 @@ npm run lint     # Ejecuta ESLint
 npm run format   # Formatea con Prettier
 ```
 
-## 🐛 Solución de Problemas
+##  Solución de Problemas
 
 ### "Command not found: create-react-pro"
 ```bash
@@ -257,7 +257,7 @@ node --version  # Debe ser >= 18.0.0
 # Actualizar desde: https://nodejs.org/
 ```
 
-## 🤝 Contribuir
+##  Contribuir
 
 Las contribuciones son bienvenidas! Por favor:
 
@@ -271,7 +271,7 @@ Las contribuciones son bienvenidas! Por favor:
 
 MIT
 
-## 🙏 Agradecimientos
+##  Agradecimientos
 
 - [Vite](https://vitejs.dev/) - Build tool ultrarrápido
 - [Commander.js](https://github.com/tj/commander.js/) - CLI framework
@@ -281,7 +281,7 @@ MIT
 
 ---
 
-Hecho con ❤️ para la comunidad React
+Hecho con  para la comunidad React
     ├→ 07_packages.bat (npm install)
     └→ 08_finalize.bat (Git init, VS Code)
     ↓

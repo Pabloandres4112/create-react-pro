@@ -124,7 +124,7 @@ function App() {
           {[
             { title: ' Rápido', desc: 'Construido con Vite para desarrollo ultrarrápido' },
             { title: ' Moderno', desc: 'Diseñado con Tailwind CSS para un look profesional' },
-            { title: '🔒 Seguro', desc: 'TypeScript para código más robusto y mantenible' },
+            { title: ' Seguro', desc: 'TypeScript para código más robusto y mantenible' },
           ].map((feature, i) => (
             <div key={i} className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
               <h3 className="text-2xl font-bold mb-4">{feature.title}</h3>

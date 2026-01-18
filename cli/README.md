@@ -42,9 +42,9 @@ Para más información, consulta el [README principal](../README.md).
 -  **Múltiples Gestores**: Soporte para npm, pnpm y yarn (con detección automática)
 -  **Plantillas Modernas**: Landing Page, E-commerce y Dashboard
 -  **Git Hooks Automáticos**: Husky + lint-staged + commitlint preconfigurados
-- 🎯 **TypeScript**: Tipado fuerte para código más robusto
-- 💅 **Tailwind CSS**: Estilos utilitarios integrados
-- 🔧 **ESLint & Prettier**: Calidad de código desde el primer commit
+-  **TypeScript**: Tipado fuerte para código más robusto
+-  **Tailwind CSS**: Estilos utilitarios integrados
+-  **ESLint & Prettier**: Calidad de código desde el primer commit
 
 ##  Requisitos
 
@@ -168,10 +168,10 @@ El CLI detecta automáticamente qué gestores están instalados y te permite ele
 
 ### Ventajas de pnpm
 -  Instalaciones hasta 2x más rápidas
-- 💾 Ahorra espacio en disco con hard links
-- 🔒 Estructura de node_modules más segura
+-  Ahorra espacio en disco con hard links
+-  Estructura de node_modules más segura
 
-## 🛠️ Desarrollo
+##  Desarrollo
 
 ### Estructura del CLI
 
@@ -209,7 +209,7 @@ cd cli
 npm run dev create test-project
 \`\`\`
 
-## 🔧 Configuración Post-Instalación
+##  Configuración Post-Instalación
 
 Después de crear tu proyecto:
 
@@ -245,7 +245,7 @@ pnpm build
 }
 \`\`\`
 
-## 🌟 Ventajas sobre los Scripts .bat Originales
+##  Ventajas sobre los Scripts .bat Originales
 
 ### Multiplataforma
 -  Funciona en Windows, macOS y Linux
@@ -271,7 +271,7 @@ pnpm build
 -  Fácil de extender con nuevas plantillas
 -  Testing más sencillo
 
-## 🚧 Roadmap Futuro
+##  Roadmap Futuro
 
 - [ ] Tests automatizados (Jest/Vitest)
 - [ ] Más plantillas (Blog, Portfolio, SaaS)
@@ -281,7 +281,7 @@ pnpm build
 - [ ] Configuración de CI/CD
 - [ ] Integración con Storybook
 
-## 🤝 Contribuir
+##  Contribuir
 
 Las contribuciones son bienvenidas! Por favor:
 
@@ -295,7 +295,7 @@ Las contribuciones son bienvenidas! Por favor:
 
 MIT
 
-## 🙏 Agradecimientos
+##  Agradecimientos
 
 - [Vite](https://vitejs.dev/) - Build tool ultrarrápido
 - [Commander.js](https://github.com/tj/commander.js/) - CLI framework
@@ -305,5 +305,5 @@ MIT
 
 ---
 
-Hecho con ❤️ para la comunidad React
+Hecho con  para la comunidad React
 \`\`\`

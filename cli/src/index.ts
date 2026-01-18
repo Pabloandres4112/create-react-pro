@@ -36,7 +36,7 @@ program
   .command('init')
   .description('Inicializar un proyecto en el directorio actual')
   .action(() => {
-    console.log(chalk.yellow('⚠️  Funcionalidad en desarrollo...'));
+    console.log(chalk.yellow('  Funcionalidad en desarrollo...'));
   });
 
 // Mostrar ayuda si no hay argumentos

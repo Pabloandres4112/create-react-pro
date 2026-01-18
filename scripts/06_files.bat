@@ -483,7 +483,7 @@ echo     title: 'Moderno',
 echo     description: 'Diseño profesional con Tailwind CSS'
 echo   },
 echo   {
-echo     icon: '🔒',
+echo     icon: '',
 echo     title: 'Tipo Seguro',
 echo     description: 'TypeScript para código robusto y sin errores'
 echo   }
